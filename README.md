@@ -6,9 +6,9 @@
 - X = **55.012662**
 
 ## Final parametric equation (for Desmos)
-(t*cos(0.5162593344811048) - exp(-0.05*|t|)*sin(0.3*t)*sin(0.5162593344811048) + 55.012662,
- 42 + t*sin(0.5162593344811048) + exp(-0.05*|t|)*sin(0.3*t)*cos(0.5162593344811048))
-Domain: 6 ≤ t ≤ 60
+`(t*cos(0.5162593344811048) - exp(-0.05*|t|)*sin(0.3*t)*sin(0.5162593344811048) + 55.012662, 42 + t*sin(0.5162593344811048) + exp(-0.05*|t|)*sin(0.3*t)*cos(0.5162593344811048))`
+
+**Domain:** 6 ≤ t ≤ 60
 
 ---
 
@@ -55,4 +55,5 @@ Domain: 6 ≤ t ≤ 60
 
 **Note:** All code was executed and verified in Google Colab (Python 3).  
 The fitted parameters minimize L1 error within the specified bounds and reproduce the expected curve accurately in Desmos.
+
 
