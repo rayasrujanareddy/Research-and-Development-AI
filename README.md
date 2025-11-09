@@ -56,4 +56,7 @@
 **Note:** All code was executed and verified in Google Colab (Python 3).  
 The fitted parameters minimize L1 error within the specified bounds and reproduce the expected curve accurately in Desmos.
 
+## Summary
+This project aims to estimate unknown parameters (θ, M, and X) in a given parametric curve using real data points. I assumed t is uniformly sampled between 6 and 60 and implemented a grid search in Python to find the best-fitting parameters that minimize both L1 and RMSE errors. The final estimated values are θ = 29.579481°, M = −0.05, and X = 55.012662, with a combined L1 error of 12.700652. The observed and predicted curves closely match, confirming the accuracy of the fitted model.
+
 
